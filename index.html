@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      .flex-container {
+        display: flex;
+      }
+
+      .loader-container {
+        margin: 0 100px; /* Add some spacing between the loaders */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="loader-container">
+        <svg class="loader-svg" width="160" height="160" viewBox="0 0 160 160" style="transform: rotate(-90deg)">
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#e0e0e0" stroke-width="12px"></circle>
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#60e6a8" stroke-linecap="round" stroke-width="12px" stroke-dasharray="439.6px" stroke-dashoffset="219.8px">
+            <animate attributeName="stroke-dashoffset" from="440" to="220" dur="2s" fill="freeze" />
+          </circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="24" fill="#60e6a8" transform="rotate(90 80 80)">50%</text>
+        </svg>
+      </div>
+      <div class="loader-container">
+        <svg class="loader-svg" width="160" height="160" viewBox="0 0 160 160" style="transform: rotate(-90deg)">
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#e0e0e0" stroke-width="12px"></circle>
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#60e6a8" stroke-linecap="round" stroke-width="12px" stroke-dasharray="439.6px" stroke-dashoffset="219.8px">
+            <animate attributeName="stroke-dashoffset" from="440" to="132" dur="2s" fill="freeze" />
+          </circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="24" fill="#60e6a8" transform="rotate(90 80 80)">70%</text>
+        </svg>
+      </div>
+      <div class="loader-container">
+        <svg class="loader-svg" width="160" height="160" viewBox="0 0 160 160" style="transform: rotate(-90deg)">
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#e0e0e0" stroke-width="12px"></circle>
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#60e6a8" stroke-linecap="round" stroke-width="12px" stroke-dasharray="439.6px" stroke-dashoffset="219.8px">
+            <animate attributeName="stroke-dashoffset" from="440" to="88" dur="2s" fill="freeze" />
+          </circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="24" fill="#60e6a8" transform="rotate(90 80 80)">80%</text>
+        </svg>
+      </div>
+      <div class="loader-container">
+        <svg class="loader-svg" width="160" height="160" viewBox="0 0 160 160" style="transform: rotate(-90deg)">
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#e0e0e0" stroke-width="12px"></circle>
+          <circle r="70" cx="80" cy="80" fill="transparent" stroke="#60e6a8" stroke-linecap="round" stroke-width="12px" stroke-dasharray="439.6px" stroke-dashoffset="219.8px">
+            <animate attributeName="stroke-dashoffset" from="440" to="44" dur="2s" fill="freeze" />
+          </circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="24" fill="#60e6a8" transform="rotate(90 80 80)">90%</text>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
